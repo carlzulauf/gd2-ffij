@@ -29,8 +29,8 @@ Gem::Specification.new do |s|
      "lib/gd2/font.rb",
      "lib/gd2/image.rb",
      "lib/gd2/palette.rb",
-     "test/canvas_test.rb",
-     "test/image_test.rb",
+     "test/canvas_tests.rb",
+     "test/image_tests.rb",
      "test/images/test.bmp",
      "test/images/test.gd",
      "test/images/test.gd2",
@@ -78,9 +78,9 @@ Gem::Specification.new do |s|
   s.rubygems_version = %q{1.3.7}
   s.summary = %q{gd2-ffij is a refactoring of the Ruby/GD2 library implemented with FFI}
   s.test_files = [
-    "test/canvas_test.rb",
-     "test/image_test.rb",
-     "test/test_helper.rb"
+    "test/canvas_tests.rb",
+    "test/image_tests.rb",
+    "test/test_helper.rb"
   ]
 
   if s.respond_to? :specification_version then
